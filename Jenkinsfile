@@ -19,9 +19,9 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Push') {
+        stage('Deploy') {
             steps {
-                echo 'Pushing...'
+                echo 'Deploying...'
                 echo 'Running docker push...'
             }
         }
